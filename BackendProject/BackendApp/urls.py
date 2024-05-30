@@ -5,3 +5,5 @@ urlpatterns = [
     path('', index),
     path('login', login_view)
 ]
+
+
