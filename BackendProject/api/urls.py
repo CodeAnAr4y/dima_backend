@@ -60,7 +60,7 @@ urlpatterns = [
     path('products/buy',
          views.buyProduct,
          name='buy_product'),
-     path('purchase_history/add', views.addToShoppingCart, name='add_to_shopping_cart')
+     path('purchase_history/add', views.addToShoppingCart, name='add_to_shopping_cart'),
 ]
 
 
